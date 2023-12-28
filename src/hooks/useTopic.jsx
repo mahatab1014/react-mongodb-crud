@@ -10,7 +10,7 @@ const useTopic = (id) => {
     queryKey: ["topicsData", "id"],
     queryFn: async () => {
       const response = await fetch(
-        `https://nextjs-mongodb-crud-topaz.vercel.app/api/topics/${id}`
+        `https://server-eta-black.vercel.app/api/topics/${id}`
       );
 
       if (!response.ok) {

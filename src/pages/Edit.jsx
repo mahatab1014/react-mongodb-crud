@@ -25,7 +25,7 @@ export default function Edit() {
 
     try {
       const res = await fetch(
-        `https://nextjs-mongodb-crud-topaz.vercel.app/api/topics/${id}`,
+        `https://server-eta-black.vercel.app/api/topics/${id}`,
         {
           method: "PUT",
           headers: {

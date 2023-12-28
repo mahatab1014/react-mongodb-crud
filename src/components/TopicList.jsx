@@ -4,7 +4,7 @@ const TopicList = ({ topicsData, topicsRefetch }) => {
   // const { topics } = topicsData;
 
   const handleDelete = (id) => {
-    fetch(`https://nextjs-mongodb-crud-topaz.vercel.app/api/topics/${id}`, {
+    fetch(`https://server-eta-black.vercel.app/api/topics/${id}`, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
     })

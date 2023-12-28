@@ -18,7 +18,7 @@ const Create = () => {
 
     try {
       const res = await fetch(
-        "https://nextjs-mongodb-crud-topaz.vercel.app/api/topics",
+        "https://server-eta-black.vercel.app/api/topics",
         {
           method: "POST",
           headers: {
